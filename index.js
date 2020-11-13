@@ -8,9 +8,10 @@ document.addEventListener("keydown", function(e) {
   } 
   else if (e.key === "ArrowRight") {
     let leftNumbers = dodger.style.left.replace("px", "");
+    
     let left = parseInt(leftNumbers, 10);
     
-    dodger.style.left = `${left + 2}px`;
+    if (left + dodger.style.left = `${left + 2}px`;
   }
 });
 
