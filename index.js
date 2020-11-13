@@ -5,5 +5,7 @@ document.addEventListener("keydown", function(e) {
     let left = parseInt(leftNumbers, 10);
  
     dodger.style.left = `${left - 1}px`;
+  } else if (e.key === "ArrowRight") {
+    
   }
-});
+
